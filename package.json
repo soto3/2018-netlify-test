@@ -1,0 +1,26 @@
+{
+  "name": "2018-netlify",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build:sass && npm run copy",
+    "build:sass": "node-sass ./src/style.scss ./dist/style.css",
+    "copy": "cpx \"./src/*.html\" \"./dist\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soto3/2018-netlify-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soto3/2018-netlify-test/issues"
+  },
+  "homepage": "https://github.com/soto3/2018-netlify-test#readme",
+  "description": "",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "node-sass": "^4.9.3"
+  }
+}
